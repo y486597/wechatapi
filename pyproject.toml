@@ -1,0 +1,18 @@
+[project]
+name = "workwechatapi"
+version = "0.1.0"
+description = "A Python library for interacting with WeChat APIs"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+authors = [
+    { name = "pkpk6", email = "pkpk6top@163.com" }
+]
+dependencies = [
+    "pycryptodome>=3.23.0",
+    "requests>=2.32.4",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["workwechatapi"]
